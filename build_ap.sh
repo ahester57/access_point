@@ -2,7 +2,7 @@
 
 sudo add-apt-repository "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) universe" &&
 sudo apt update &&
-sudo apt install bash util-linux procps hostapd iproute2 iw wireless-tools haveged iptables dnsmasq git openpvn &&
+sudo apt install bash util-linux procps hostapd iproute2 iw wireless-tools haveged iptables dnsmasq git openvpn &&
 git clone https://github.com/oblique/create_ap.git
 cd create_ap &&
 sudo make install &&
